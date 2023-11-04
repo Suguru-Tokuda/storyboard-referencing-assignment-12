@@ -13,6 +13,8 @@
 		BB1E32F72AF5E915004C8ABF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1E32F52AF5E915004C8ABF /* Main.storyboard */; };
 		BB1E32F92AF5E916004C8ABF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB1E32F82AF5E916004C8ABF /* Assets.xcassets */; };
 		BB1E32FC2AF5E916004C8ABF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1E32FA2AF5E916004C8ABF /* LaunchScreen.storyboard */; };
+		BB1E33042AF5E923004C8ABF /* Sub.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1E33032AF5E923004C8ABF /* Sub.storyboard */; };
+		BB1E33062AF5E93F004C8ABF /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1E33052AF5E93F004C8ABF /* SubViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BB1E32F82AF5E916004C8ABF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB1E32FB2AF5E916004C8ABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB1E32FD2AF5E916004C8ABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB1E33032AF5E923004C8ABF /* Sub.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Sub.storyboard; sourceTree = "<group>"; };
+		BB1E33052AF5E93F004C8ABF /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +60,15 @@
 		BB1E32EE2AF5E915004C8ABF /* StoryboardReferencing */ = {
 			isa = PBXGroup;
 			children = (
+				BB1E32FD2AF5E916004C8ABF /* Info.plist */,
+				BB1E33032AF5E923004C8ABF /* Sub.storyboard */,
 				BB1E32EF2AF5E915004C8ABF /* AppDelegate.swift */,
 				BB1E32F12AF5E915004C8ABF /* SceneDelegate.swift */,
+				BB1E33052AF5E93F004C8ABF /* SubViewController.swift */,
 				BB1E32F32AF5E915004C8ABF /* ViewController.swift */,
-				BB1E32F52AF5E915004C8ABF /* Main.storyboard */,
 				BB1E32F82AF5E916004C8ABF /* Assets.xcassets */,
 				BB1E32FA2AF5E916004C8ABF /* LaunchScreen.storyboard */,
-				BB1E32FD2AF5E916004C8ABF /* Info.plist */,
+				BB1E32F52AF5E915004C8ABF /* Main.storyboard */,
 			);
 			path = StoryboardReferencing;
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 				BB1E32FC2AF5E916004C8ABF /* LaunchScreen.storyboard in Resources */,
 				BB1E32F92AF5E916004C8ABF /* Assets.xcassets in Resources */,
 				BB1E32F72AF5E915004C8ABF /* Main.storyboard in Resources */,
+				BB1E33042AF5E923004C8ABF /* Sub.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 				BB1E32F42AF5E915004C8ABF /* ViewController.swift in Sources */,
 				BB1E32F02AF5E915004C8ABF /* AppDelegate.swift in Sources */,
 				BB1E32F22AF5E915004C8ABF /* SceneDelegate.swift in Sources */,
+				BB1E33062AF5E93F004C8ABF /* SubViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
